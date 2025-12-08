@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="th">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> ช่องทางการติดต่อ - TATHA</title>
+    </head>
+    <section class="contact">
+        <body>
+            <header>
+                <h1>TATHA</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">หน้าแรก</a></li>
+                        <li><a href="about.html">เกี่ยวกับฉัน</a></li>
+                        <li><a href="service.html">บริการ</a></li>
+                        <li><a href="contact.html">ช่องทางการติดต่อ</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+      <!--4.1 Contact Form ฟอร์มติดต่อ -->
+      <section id="contact">
+        <form action="/register" method="POST">
+          <fieldset>
+            <label for="fname">ชื่อ:</label>
+            <input type="text" id="fname" name="firstname" required />
+            <label for="lname">นามสกุล:</label>
+            <input type="text" id="lname" name="lastname" required />
+            <br />
+            <label for="email">อีเมล:</label>
+            <input type="email" id="email" name="email" required />
+            <label for="phone">เบอร์โทร:</label>
+            <input type="phone" id="phone" name="phone" required />
+            <br />
+            <label for="note">รายละเอียด:</label><br />
+            <textarea name="note" id="note" rows="5" cols="50"></textarea>
+          </fieldset>
+          <br />
+          <button type="submit">ส่งข้อมูล</button>
+          <button type="reset">ยกเลิก</button>
+        </form>
+      </section>
+      <hr />
+      <!-- 4.2 ที่อยู่ของบริษัท และ 4.3 Map -->
+      <section>
+        <h2>ที่อยู่บริษัท</h2>
+        <p>ตำบลเสม็ด อำเภอเมืองชลบุรี จังหวัดชลบุรี 20000</p>
+      </section>
+      <!-- แผนที่ -->
+      <section>
+        <h2>พิกัดแผนที่</h2>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.2534812811664!2d100.95546797508278!3d13.334502087015219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d4b6e095b585f%3A0x1a4a22f44a1cb48d!2zVEhBVEEgU1BPUlQg4LiW4Li44LiH4LmA4LiX4LmJ4Liy4LmB4Lil4Liw4Lit4Li44Lib4LiB4Lij4LiT4LmM4LiB4Li14Lis4LiyIC8g4Lij4Lix4Lia4Liq4Lit4LiZ4Lia4Liy4Liq4LmA4LiB4LiV4Lia4Lit4LilIEJ5IFRIQVRBIEJhc2tldGJhbGwgQ2xpbmlj!5e0!3m2!1sen!2sth!4v1765162212786!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+    </main>
+  </body>
+    </html> 
